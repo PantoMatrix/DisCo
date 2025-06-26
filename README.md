@@ -23,7 +23,7 @@ DisCo: Disentangled Implicit Content and Rhythm Learning for Diverse Co-Speech G
             ├── custom
             └── wandb   
     ```
-2. download the framework scripts from [BEAT](https://github.com/PantoMatrix/BEAT) to `codes/audio2pose/`
+2. download the framework scripts from [BEAT](https://github.com/PantoMatrix/PantoMatrix/blob/main/train_disco_audio.py) to `codes/audio2pose/`
 3. run ```pip install -r requirements.txt``` in the path `./codes/audio2pose/`
 4. download trinity dataset to `datasets/trinity`
 5. bulid data cache and calculate mean and std by given `number of joints`, `FPS`, `speakers` using `/dataloader/preprocessing.ipynb`
